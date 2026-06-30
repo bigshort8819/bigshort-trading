@@ -1,1 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BIGSHORT84 | Trading</title>
 
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0d1117;
+color:white;
+}
+
+.sidebar{
+position:fixed;
+left:0;
+top:0;
+width:220px;
+height:100%;
+background:#161b22;
+padding:30px 20px;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+margin-bottom:50px;
+}
+
+.sidebar a{
+display:block;
+color:#c9d1d9;
+text-decoration:none;
+padding:15px 0;
+transition:.3s;
+}
+
+.sidebar a:hover{
+color:#58a6ff;
+padding-left:10px;
+}
+
+.main{
+margin-left:220px;
+padding:60px;
+}
+
+h1{
+font-size:56px;
+margin-bottom:10px;
+}
+
+.subtitle{
+color:#8b949e;
+margin-bottom:50px;
+font-size:20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#161b22;
+padding:35px;
+border-radius:15px;
+transition:.3s;
+cursor:pointer;
+border:1px solid #30363d;
+}
+
+.card:hover{
+transform:translateY(-8px);
+border-color:#58a6ff;
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.card p{
+color:#8b949e;
+line-height:1.6;
+}
+
+footer{
+margin-top:80px;
+color:#666;
+}
+
+@media(max-width:800px){
+
+.sidebar{
+position:relative;
+width:100%;
+height:auto;
+}
+
+.main{
+margin-left:0;
+padding:30px;
+}
+
+h1{
+font-size:40px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<div class="logo">
+BIGSHORT84
+</div>
+
+<a href="#">🏠 Home</a>
+<a href="#">₿ Bitcoin Strategy</a>
+<a href="#">📈 NASDAQ Strategy</a>
+<a href="#">📒 Trading Journal</a>
+<a href="#">💬 Community</a>
+<a href="#">▶ YouTube</a>
+
+</div>
+
+<div class="main">
+
+<h1>Trading Portfolio</h1>
+
+<div class="subtitle">
+Systematic Trading | NASDAQ & Bitcoin
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h2>₿ Bitcoin Strategy</h2>
+<p>
+비트코인 전략 소개<br>
+성과 그래프<br>
+백테스트<br>
+실전 결과
+</p>
+</div>
+
+<div class="card">
+<h2>📈 NASDAQ Strategy</h2>
+<p>
+나스닥 전략 소개<br>
+진입 원칙<br>
+청산 원칙<br>
+전략 설명
+</p>
+</div>
+
+<div class="card">
+<h2>📒 Trading Journal</h2>
+<p>
+나스닥 매매일지<br>
+복기<br>
+차트 기록
+</p>
+</div>
+
+<div class="card">
+<h2>💬 Community</h2>
+<p>
+Telegram 단톡방<br>
+1:1 문의
+</p>
+</div>
+
+<div class="card">
+<h2>▶ YouTube</h2>
+<p>
+유튜브 채널<br>
+최신 영상
+</p>
+</div>
+
+</div>
+
+<footer>
+
+© 2026 BIGSHORT84
+
+</footer>
+
+</div>
+
+</body>
+</html>
